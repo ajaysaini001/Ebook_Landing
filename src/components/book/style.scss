@@ -1,0 +1,179 @@
+.book{
+    width: 100%;
+    margin-top: 50rem;
+    .content{
+        
+        width: 100%;
+        .aboutbook{
+            
+            
+            display: flex;
+            .right{
+                line-height: 3rem;
+                h2{
+                    font-size: 30px;
+                    color: #F4A261;
+
+                }
+                h1{
+                    font-size: 45px;
+                    font-weight: 900;
+                }
+                p{
+                    font-size: 20px;
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .prewheading{
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            h2{
+                font-size: 40px;
+                color: #F4A261;
+            }
+            h1{
+                font-size: 60px;
+                font-weight: 800;
+            }
+        }
+
+        .preview{
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-around;
+            .left{
+                
+                width: 27%;
+                height: 600px;
+                padding-left: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                border: 2px solid black;
+                border-radius: 30px;
+                margin-left: 5rem;
+                .intro{
+                    
+                    margin-top: 3rem;
+                    width: 260px;
+                    line-height: 30px;
+                    height: 60px;
+                    padding: 15px 50px;
+                    font-size: 25px;
+                    font-weight: 600;
+                    list-style: none;
+                    border-radius: 40px;
+                    background-color: #f0f8ff;
+                }
+                .intro:hover{
+                    background-color: orangered;
+                }
+                .li{
+                    width: 280px;
+                    line-height: 30px;
+                    height: 80px;
+                    padding: 10px 25px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    list-style: none;
+                    border-radius: 40px;
+                    background-color: #f0f8ff;
+                }
+                .li:hover{
+                    background-color: orangered;
+                }
+               
+            }
+            
+            .right{
+                width: 50%;
+                line-height: 30px;
+                h1{
+                    font-size: 35px;
+                    font-weight: 900;
+                }
+                p{
+                    font-size: 25px;
+                    opacity: 0.8;
+                }
+                .comment{
+                    margin-top: 3rem;
+                    width: 600px;
+                    height: 250px;
+                    padding: 50px;
+                    background-color:#f0f8ff ;
+                    .cot{
+                        font-size: 50px;
+                        padding-left: 13rem;
+                    }
+                    p{
+                        width: 500px;
+                        font-size: 35px;
+                        font-weight: 800;
+                        text-align: center;
+                    }
+
+                }
+                p{
+                    margin-top: 3rem;
+                }
+                .dot{
+                    font-size: 50px;
+                    opacity: 0.5;
+                }
+                .chapter2{
+                    margin-top: 5rem;
+                    .image{
+                        margin-top: 3rem;
+                        display: flex;
+                        gap: 20px;
+                        img{
+                            width: 300px;
+                            border-radius: 30px;
+                        }
+                    }
+                }
+                .chapter3{
+                    margin-top: 5rem;
+                    .image1{
+                        img{
+                            width: 620px;
+                            height: 400px;
+                            border-radius: 30px;
+                        }
+                    }
+                }
+                .chapter4{
+                    margin-top: 5rem;
+                }
+                .chapter5{
+                    margin-top: 5rem;
+                    .image{
+                        display: flex;
+                        gap: 50px;
+                        img{
+                            width: 300px;
+                            height: 220px;
+                        }
+                    
+                    .text{
+                        width: 270px;
+                        height: 200px;
+                        
+                        h2{
+                            font-size: 25px;
+                        }
+                
+                    }
+                }
+                }
+            }
+        }
+    }
+}

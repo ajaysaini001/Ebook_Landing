@@ -1,0 +1,63 @@
+.app{
+    .btn{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -4rem;
+        margin-left: 25rem;
+        gap: 20px;
+        
+        .enter{
+     
+            position: fixed;
+            // margin-left: 0rem;
+             width: 120px;
+             font-size: 18px;
+             border-style: none;
+             background-color: transparent;
+         }
+         .enter1{
+     
+            position: fixed;
+            margin-left: 7rem;
+             width: 120px;
+             font-size: 18px;
+             border-style: none;
+             background-color: transparent;
+         }
+         .enter2{
+     
+            position: fixed;
+            margin-left: 13rem;
+             width: 120px;
+             font-size: 18px;
+             border-style: none;
+             background-color: transparent;
+         }
+         .enter3{
+     
+            position: fixed;
+            margin-left: 19rem;
+             width: 120px;
+             font-size: 18px;
+             border-style: none;
+             background-color: transparent;
+         }
+         .enter4{
+     
+            position: fixed;
+            margin-left: 25rem;
+             width: 120px;
+             font-size: 18px;
+             border-style: none;
+             background-color: transparent;
+         }
+        
+        .enter:hover{
+            color: red;
+        }
+        
+        position: relative;
+        z-index: 99;
+    }
+}
